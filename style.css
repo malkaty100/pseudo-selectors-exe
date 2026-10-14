@@ -1,0 +1,52 @@
+h1{color:rgb(130, 130, 227)}
+.card{width: 650px;
+border: 2px solid black;
+list-style: none;
+border-radius: 10px;
+  margin: 10px;
+}
+.container-cards{display: flex;
+flex-direction: column;
+  align-items: center;
+
+}
+.card:nth-child(1) {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.card:nth-child(2){
+  font-family: "Share Tech", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.card:nth-child(3){
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.card:nth-child(4){
+  font-family: "Oxanium", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+.p::first-line{font-weight: bold;}
+.p::first-letter{font-size: 35px;
+color: rgb(130, 130, 227);}
+.card:has(input[type="checkbox"]:checked) {
+    background-color: black;
+    color: white;
+}
+.delete{border-radius: 30px;
+display: inline-block;
+height: 36px;
+background-color: white;
+border:2px solid rgb(188, 185, 185);
+}
+.delete:hover{background-color:rgb(212, 62, 62);
+}
+header{text-align: center;
+}
